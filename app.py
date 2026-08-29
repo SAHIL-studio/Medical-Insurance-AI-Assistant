@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 import shap
 
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash",
+llm = ChatGoogleGenerativeAI(model="gemini-3.6-flash",
                              google_api_key=st.secrets["google_api_key"])
 
 model = pickle.load(open("model.pkl", "rb"))
