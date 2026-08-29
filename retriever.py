@@ -5,7 +5,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import PromptTemplate
 embedding = GoogleGenerativeAIEmbeddings(model = "gemini-embedding-001",
                                          google_api_key=st.secrets["google_api_key"])
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash",
+llm = ChatGoogleGenerativeAI(model="gemini-3.6-flash",
                              google_api_key=st.secrets["google_api_key"])
 
 from embeddings import vector_store
