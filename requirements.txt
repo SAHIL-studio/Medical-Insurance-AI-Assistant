@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+langchain
+langchain-community
+langchain-google-genai
+langchain-chroma
+chromadb
+pypdf
+shap
